@@ -10,7 +10,7 @@
         <ListView x:Name="moviesView">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding title}"
+                    <TextCell x:Name="cell" Text="{Binding original_title}"
                               Detail="{Binding overview}"/>
                 </DataTemplate>
             </ListView.ItemTemplate>

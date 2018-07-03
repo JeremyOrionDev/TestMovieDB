@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TestMovieDB
 {
-    class Genre
+    public class Genre
     {
         public int id { get; set; }
         public string name { get; set; }
